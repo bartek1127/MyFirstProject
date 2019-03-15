@@ -7,11 +7,14 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>My first project </title>
+        <title>My first project/ Bartek </title>
     </head>
+    <h3>Voer een tekst in</h3>
     <body>
-        <?php
-        echo "nee ";
-        ?>
+      <form action="Models/Palindroom.php" method="post">
+          <input type="text" name="voornaam" />
+          <input type = "submit" value="submit"/>
+          
+      </form>
     </body>
 </html>
