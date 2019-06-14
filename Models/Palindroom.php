@@ -16,7 +16,7 @@
 
  
 
-include_once '../intergration/DbHandler.php';
+include '../intergration/DbHandler.php';
 
 class Palindroom{
 
