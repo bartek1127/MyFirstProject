@@ -11,10 +11,18 @@ and open the template in the editor.
     </head>
     <h3>Voer een tekst in</h3>
     <body>
-      <form action="controllers/Presenter.php" method="post">
+      <form action="Presenter.php" method="post">
           <input type="text" name="naam" />
           <input type = "submit" value="submit"/>
                     
       </form>
+        <?php
+        
+        echo $viewData["palindroom"];
+        echo "<br>";
+        echo $viewData["message"];
+        echo "<br>";
+         echo $viewData["action"];
+        ?>
     </body>
 </html>
